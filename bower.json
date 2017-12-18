@@ -1,0 +1,17 @@
+{
+  "name": "textangular-spike",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Nasir Hussien"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

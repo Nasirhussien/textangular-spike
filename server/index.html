@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-controller="WelcomeController as vm">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/angular.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="vendors/textAngular/dist/textAngular-sanitize.js"></script>
+    <script src="vendors/textAngular/dist/textAngularSetup.js"></script>
+    <script src="vendors/textAngular/dist/textAngular.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head >
+ <h1>Text angular spike</h1>
+<body>
+    {{vm.message}}
+
+    <div text-angular ng-model="htmlVariable">
+        
+    </div>
+
+</body>
+</html>
